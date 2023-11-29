@@ -1,0 +1,111 @@
+html {
+    font-size: 15px;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color:  #161714;
+}
+
+    header .nav-boys-fisher {
+        display: inline;
+    }
+    header .nav-boys-fisher .container-list-boys-fisher {
+        display: inline;
+    }
+    header .nav-boys-fisher .container-list-boys-fisher li{
+        display: inline;
+        position: relative;
+        padding-left: 10px;
+        left:1470px;
+        bottom: 160px;
+        font-family: 'Abel', sans-serif;
+
+    }
+    header .nav-boys-fisher .container-list-boys-fisher li a {
+        text-decoration:none;
+        color: white;
+    }
+
+    header .logo-fisher {
+        width: 210px;
+        height: 200px;
+        display: inline;
+        position: relative;
+        right: 400px;
+        top: 10px;
+    }
+    header .title-first h1  {
+        display: inline;
+        color: white;
+        position: relative;
+        left: 30px;
+        bottom: 10px;
+        font-family: 'Kenia', sans-serif
+    }
+
+main {
+    display: inline;
+}
+
+    main .container-main-boys-section-fisher .container-main-boys-div-fisher div{
+        display: inline;
+    }
+    main .container-main-boys-section-fisher .container-main-boys-div-fisher div img{
+        display: inline;
+        width: 300px;
+        height: 290px;
+        position: relative;
+        left: 100px;
+        padding-top: 30px;
+    }
+    main .container-main-boys-section-fisher .container-main-boys-div-fisher div p {
+        display: inline;
+        position: relative;
+        top: 20px;
+        right: 120px;
+        font-family: 'Abel', sans-serif;
+
+    }
+   
+
+footer {
+    background-color: #161714;
+    height: 120px;
+    margin-top: 30px;
+
+}   
+    footer h3 {
+        display:inline;
+        color: white;
+        position: relative;
+        left: 50px;
+        top: 50px;
+        font-family: 'Abel', sans-serif;
+
+    }
+    footer .icon-whatsapp-boys-fisher a {
+        position: relative;
+        display: inline;
+        font-size: 30px;
+        left: 1600px;
+        top: 33px;
+    }
+    footer .icon-facebook-boys-fisher a {
+        position: relative;
+        display: inline;
+        font-size: 28px;
+        top: 2px ;
+        left: 1700px;
+
+    }
+    footer .icon-instagram-boys-fisher a {
+        position: relative;
+        display: inline;
+        font-size: 30px;
+        left: 1800px;
+        bottom: 32px;
+    }

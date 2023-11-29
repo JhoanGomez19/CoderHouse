@@ -1,0 +1,123 @@
+html {
+    font-size:16px ;
+}
+
+body {
+    margin: 0px;
+}
+
+
+header {
+    background-color: #161714;
+}
+
+    header .nav-appliances-fisher {
+        display: inline;
+    }
+    header .nav-appliances-fisher .container-list-appliances-fisher {
+        display: inline;
+    }
+    header .nav-appliances-fisher .container-list-appliances-fisher li {
+        display: inline;
+        position: relative;
+        padding: 10px;
+        left: 1400px;
+        bottom: 170px;
+    }
+    header .nav-appliances-fisher .container-list-appliances-fisher li a {
+        color: white;
+        text-decoration: none;
+        font-family: 'Abel', sans-serif;
+    }
+    header .logo-fisher {
+        width: 200px;
+        height: 210px;
+        display: inline;
+        right: 460px;
+        top: 10px;
+        position: relative;
+    }
+
+    header .title-first h1 {
+        display: inline;
+        color: white;
+        position: relative;
+        bottom: 10px;
+        left: 28px;
+        font-family: 'Kenia', sans-serif;
+        font-size: 2.3rem;
+    }
+main {
+    display: inline;
+}
+    main .container-appliances-section-fisher .container-main-appliances-div-fisher div {
+        display: inline;
+    }
+    main .container-appliances-section-fisher .container-main-appliances-div-fisher div img {
+        display: inline;
+        width: 300px;
+        height: 280px;
+        position: relative;
+        left: 70px;
+        margin-top: 30px;
+        padding-top: 20px;
+    }
+    main .container-appliances-section-fisher .container-main-appliances-div-fisher div p {
+        display: inline;
+        position: relative;
+        top: 20px;
+        right: 150px;
+        font-family: 'Abel', sans-serif;
+        font-size: 1.2rem;
+    }
+    main .container-appliances-section-fisher .shirt-yellow-appliances-front-fisher {
+        position: relative;
+        left: 90px;
+    }
+    main .container-appliances-section-fisher .shirt-brown-appliances-back-fisher {
+        position: relative;
+        right: 30px;
+    }
+
+
+footer {
+    background-color: #161714;
+    margin-top: 30px;
+    height: 120px;
+}    
+    
+    footer h3 {
+        display: inline;
+        position: relative;
+        color: white;
+        top: 50px;
+        left: 40px;
+        font-size: 1.5rem;
+        font-family: 'Abel', sans-serif;
+    }
+
+    footer .icon-whatsapp-appliances-fisher {
+        font-size: 30px;
+        position: relative;
+        left: 1500px;
+        top: 53px;
+        display: inline;
+
+    }
+    
+    footer .icon-facebook-appliances-fisher {
+        font-size: 28px;
+        position: relative;
+        left: 1550px;
+        top: 53px;
+        display: inline;
+
+    }
+    footer .icon-instagram-appliances-fisher {
+        font-size: 28px;
+        position: relative;
+        left: 1600px;
+        top: 53px;
+        display: inline;
+
+    }

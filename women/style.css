@@ -1,0 +1,111 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color:#161714 ;
+    width: 100%;
+}
+
+    header .nav-man-fisher .container-man-list-fisher {
+        display: inline;
+        text-decoration: none;
+    }
+    header .nav-man-fisher .container-man-list-fisher li {
+        display: inline;
+       
+        position: relative;
+        padding-left: 10px ;
+        left: 1450px;
+        top: 20px;
+        font-family: 'Abel', sans-serif;
+    }
+    header .nav-man-fisher .container-man-list-fisher li a {
+        color: white;
+        text-decoration: none;
+    }
+
+    header .logo-woman-fisher {
+        position: relative;
+        left: 30px;
+        width: 210px;
+        height: 200px;
+    }
+    header .title-woman-first h1 {
+        display: inline;
+        color: white;
+        position: relative;
+        bottom: 10px;
+        left: 30px;
+        font-family: 'Kenia', sans-serif;
+        font-size: 2.3rem;
+    }
+    header .container-main-woman-section-fisher .container-main-woman-div-fisher {
+        display: inline;
+    }
+    main .container-main-woman-section-fisher .container-main-woman-div-fisher div {
+        display: inline;
+    }
+    main .container-main-woman-section-fisher .container-main-woman-div-fisher div img {
+        width: 280px;
+        height: 280px;
+        position: relative;
+        left: 140px;
+        top: 30px;
+        padding-top: 50px ;
+    }
+    main .container-main-woman-section-fisher .container-main-woman-div-fisher p {
+        display: inline;
+        position: relative;
+        top: 60px;
+        right: 90px;
+        font-size: 1.2rem;
+        font-family: 'Abel', sans-serif;
+    }
+    main .shirt-yellow-woman-front-fisher {
+        position: relative;
+        right: 50px;
+    }
+    main .shirt-brown-woman-back-fisher {
+        position: relative;
+        left: 50px;
+    }
+
+footer {
+    background-color: #161714;
+    width: 100%;
+    margin-top: 80px;
+}
+    footer h3 {
+        font-size: 1.5rem;
+        color: white;
+        position: relative;
+        left: 50px;
+        top: 60px;
+        font-family: 'Abel', sans-serif;
+    }
+
+    footer .icon-whatsapp-woman-fisher a{
+        font-size: 30px;
+        position: relative;
+        left: 1600px;
+        top: 10px;
+    }
+    footer .icon-facebook-woman-fisher a {
+        font-size: 28px;
+        position: relative;
+        left: 1670px;
+        bottom: 23px;
+    }
+    footer .icon-instagram-woman-fisher a {
+        font-size: 28px;
+        position: relative;
+        left: 1750px;
+        bottom: 55px;
+    }
+    
+

@@ -532,4 +532,39 @@ footer {
     width: 400px;
     height: 300px;  
   } 
+
+  footer .img-logo {
+    display: none;
+    
+  }
+
+
+  footer .container-img-icon-p {
+
+    margin: 0;
+    display: grid;
+    grid-template-areas:
+      'p container-icon'
+      'img-team img-team';
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+  }
+
+  footer p {
+    grid-area: p;
+    font-size: 1.0rem;
+  }
+
+  footer .img-team {
+    grid-area: img-team;
+    display: flex;
+    justify-self: center;
+    align-self: flex-end;
+  }
+
+  footer .container-icon {
+    grid-area: container-icon;
+    font-size: 1.3rem;
+  }
+
 }

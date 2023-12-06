@@ -1,111 +1,224 @@
 html {
     font-size: 16px;
-}
-
-body {
     margin: 0;
+    padding: 0;
+
 }
+ 
 
 header {
-    background-color:#161714 ;
-    width: 100%;
+    display: grid;
+    
 }
-
-    header .nav-man-fisher .container-man-list-fisher {
-        display: inline;
-        text-decoration: none;
+    
+    header .nav-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        background-color: #161614 ;
+        font-family: 'Abel', sans-serif;
+        
     }
-    header .nav-man-fisher .container-man-list-fisher li {
-        display: inline;
+    header .nav-container .nav-ul-li  {
+        width: 100%;
+        padding-right: 15px;
+        
+    }
+    header .nav-container .nav-ul-li li {
+        padding-top: 15px;
+        padding-left: 10px;
+        list-style: none;
+        
+    }
+    header .nav-container .nav-ul-li li a {
+        text-decoration: none;
+        color: white;
+    }
+    header .img-nav {
+        display: flex;
+       width: 100%;
+       padding-left: 40px;
+    }
+    header .img-nav img{
+        width: 255px;
+        height: 250px;
        
-        position: relative;
-        padding-left: 10px ;
-        left: 1450px;
-        top: 20px;
-        font-family: 'Abel', sans-serif;
     }
-    header .nav-man-fisher .container-man-list-fisher li a {
+    header .title-first {
+        display: flex;
+        width: 100%;
         color: white;
-        text-decoration: none;
+        padding-left: 45px;
+        padding-bottom: 10px;
+        font-family: 'Kenia', sans-serif;
     }
 
-    header .logo-woman-fisher {
-        position: relative;
-        left: 30px;
-        width: 210px;
-        height: 200px;
+    main .container-main-section-fisher .container-main-div-fisher {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 10px;
+        margin-top: 50px;
+
+        
     }
-    header .title-woman-first h1 {
-        display: inline;
-        color: white;
-        position: relative;
-        bottom: 10px;
-        left: 30px;
-        font-family: 'Kenia', sans-serif;
-        font-size: 2.3rem;
+    main .container-main-section-fisher .container-main-div-fisher img{
+        width: 250px;
+        height: 240px;
     }
-    header .container-main-woman-section-fisher .container-main-woman-div-fisher {
-        display: inline;
-    }
-    main .container-main-woman-section-fisher .container-main-woman-div-fisher div {
-        display: inline;
-    }
-    main .container-main-woman-section-fisher .container-main-woman-div-fisher div img {
-        width: 280px;
-        height: 280px;
-        position: relative;
-        left: 140px;
-        top: 30px;
-        padding-top: 50px ;
-    }
-    main .container-main-woman-section-fisher .container-main-woman-div-fisher p {
-        display: inline;
-        position: relative;
-        top: 60px;
-        right: 90px;
-        font-size: 1.2rem;
+    main .container-main-div-fisher p {
         font-family: 'Abel', sans-serif;
-    }
-    main .shirt-yellow-woman-front-fisher {
-        position: relative;
-        right: 50px;
-    }
-    main .shirt-brown-woman-back-fisher {
-        position: relative;
-        left: 50px;
+        font-size: 1.2rem;
+
     }
 
 footer {
-    background-color: #161714;
+    background-color: #161614;
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
-    margin-top: 80px;
 }
     footer h3 {
-        font-size: 1.5rem;
         color: white;
-        position: relative;
-        left: 50px;
-        top: 60px;
+        padding-left: 50px;
         font-family: 'Abel', sans-serif;
     }
-
-    footer .icon-whatsapp-woman-fisher a{
+    footer .container-icon {
+        display: flex;
+        flex-direction: column;
         font-size: 30px;
-        position: relative;
-        left: 1600px;
-        top: 10px;
+        padding-right: 50px;
     }
-    footer .icon-facebook-woman-fisher a {
-        font-size: 28px;
-        position: relative;
-        left: 1670px;
-        bottom: 23px;
-    }
-    footer .icon-instagram-woman-fisher a {
-        font-size: 28px;
-        position: relative;
-        left: 1750px;
-        bottom: 55px;
-    }
-    
 
+
+@media (max-width: 1810px) {
+    main .container-main-section-fisher .container-main-div-fisher {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+    }
+}
+
+@media (max-width: 1577px ) {
+    main .container-main-section-fisher .container-main-div-fisher {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+
+    }
+}
+
+@media (max-width: 1398px) {
+    main .container-main-section-fisher .container-main-div-fisher {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+
+    }
+}
+
+@media (max-width: 1041px) {
+    main .container-main-section-fisher .container-main-div-fisher {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+}
+
+@media (max-width: 660px) {
+    header .img-nav {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+    main .container-main-section-fisher .container-main-div-fisher {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+     
+    header .nav-container .nav-ul-li{
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-end;
+        padding: 0;
+
+     
+
+    }
+    header .title-first {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+
+    }
+    header .title-first h1 {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+    header .nav-container .nav-ul-li li {
+        display: flex;
+        justify-content: center;
+        font-size: 1.0rem;
+    }
+
+}
+
+
+
+
+
+
+@media (max-width: 458px) {
+    
+    
+    
+    header .img-nav {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+
+    
+    header .nav-container .nav-ul-li{
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-end;
+        padding: 0;
+
+
+    }
+    header .title-first {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+
+    }
+    header .title-first h1 {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+    header .nav-container .nav-ul-li li {
+        display: flex;
+        justify-content: center;
+        font-size: 0.8rem;
+    }
+    main {
+        padding: 0;
+    }
+    main .container-main-section-fisher .container-main-div-fisher {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 ;
+        width: 100%;
+    }
+
+
+}

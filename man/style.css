@@ -1,126 +1,224 @@
 html {
     font-size: 16px;
-    height: auto;
-}
+    margin: 0;
+    padding: 0;
 
-body {
-    margin: 0px;
 }
+ 
 
-    header {
+header {
+    display: grid;
+    
+}
+    
+    header .nav-container {
         width: 100%;
-        background-color: #171715;
-        height: 280px;
-    }
-
-    header .nav-man-fisher {
-        display: inline;
-    }
-    header .container-man-list-fisher {
-        display: inline;
-    }
-    header .container-man-list-fisher li{
-        display: inline;
-        position: relative;
-        left: 1450px;
-        bottom: 160px;
-        padding-left: 10px;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        background-color: #161614 ;
         font-family: 'Abel', sans-serif;
+        
     }
-    header .container-man-list-fisher li a {
-        color: white;
+    header .nav-container .nav-ul-li  {
+        width: 100%;
+        padding-right: 15px;
+        
+    }
+    header .nav-container .nav-ul-li li {
+        padding-top: 15px;
+        padding-left: 10px;
+        list-style: none;
+        
+    }
+    header .nav-container .nav-ul-li li a {
         text-decoration: none;
-  
-    }
-    header .logo-man-fisher {
-        display: inline;
-        height: 200px;
-        width: 210px;  
-        position: relative;
-        right: 400px;
-        top: 20px;
-    }
-    header .title-man-first  {
-        display: inline;
-        font-size: 1.3rem;
         color: white;
     }
-    header .title-man-first h1 {
-        display: inline;
-        position: relative;
-        right: 620px;
-        top: 40px;
+    header .img-nav {
+        display: flex;
+       width: 100%;
+       padding-left: 40px;
+    }
+    header .img-nav img{
+        width: 255px;
+        height: 250px;
+       
+    }
+    header .title-first {
+        display: flex;
+        width: 100%;
+        color: white;
+        padding-left: 45px;
+        padding-bottom: 10px;
         font-family: 'Kenia', sans-serif;
     }
 
-main {
-    display: inline
-}
-    main .container-main-man-section-fisher .container-main-man-div-fisher {
-        display: inline;
-    }
-    main .container-main-man-section-fisher .container-main-man-div-fisher div {
-        display: inline;
-    }
-    main .container-main-man-section-fisher .container-main-man-div-fisher div img {
-        position: relative;
-        width: 260px;
-        height: 310px;
-        left: 130px;
-        top: 10px;
-        padding-top:60px ;
-    }
+    main .container-main-section-fisher .container-main-div-fisher {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 10px;
+        margin-top: 50px;
 
-    main .container-main-man-div-fisher div p {
-        display: inline;
-        position: relative;
-        top: 40px;
-        right: 80px;
+        
+    }
+    main .container-main-section-fisher .container-main-div-fisher img{
+        width: 250px;
+        height: 240px;
+    }
+    main .container-main-div-fisher p {
         font-family: 'Abel', sans-serif;
         font-size: 1.2rem;
 
     }
-    main .shirt-brown-man-back-fisher p {
-        position: relative;
-        
-    }
 
 footer {
-        width: 100%;
-        background-color: #171715;
-        margin-top: 80px;
-        
+    background-color: #161614;
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
     footer h3 {
-        display: inline;
         color: white;
-        font-size: 1.5rem;
-        position: relative;
-        top: 50px;
-        left: 40px;
+        padding-left: 50px;
         font-family: 'Abel', sans-serif;
-    }    
-
-    footer .icon-whatsapp-man-fisher a {
-        display: inline;
-        position: relative;
+    }
+    footer .container-icon {
+        display: flex;
+        flex-direction: column;
         font-size: 30px;
-        left: 1610px;
-        top: 32px;
-    }
-    footer .icon-facebook-man-fisher a {
-        display: inline;
-        font-size: 28px;
-        position: relative;
-        left: 1700px;
-    }
-    footer .icon-instagram-man-fisher a {
-        display: inline;
-        font-size: 30px;
-        position: relative;
-        left: 1780px;
-        bottom: 33px;
-        
+        padding-right: 50px;
     }
 
 
+@media (max-width: 1810px) {
+    main .container-main-section-fisher .container-main-div-fisher {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+    }
+}
+
+@media (max-width: 1577px ) {
+    main .container-main-section-fisher .container-main-div-fisher {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+
+    }
+}
+
+@media (max-width: 1398px) {
+    main .container-main-section-fisher .container-main-div-fisher {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+
+    }
+}
+
+@media (max-width: 1041px) {
+    main .container-main-section-fisher .container-main-div-fisher {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+}
+
+@media (max-width: 660px) {
+    header .img-nav {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+    main .container-main-section-fisher .container-main-div-fisher {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+     
+    header .nav-container .nav-ul-li{
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-end;
+        padding: 0;
+
+     
+
+    }
+    header .title-first {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+
+    }
+    header .title-first h1 {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+    header .nav-container .nav-ul-li li {
+        display: flex;
+        justify-content: center;
+        font-size: 1.0rem;
+    }
+
+}
+
+
+
+
+
+
+@media (max-width: 458px) {
+    
+    
+    
+    header .img-nav {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+
+    
+    header .nav-container .nav-ul-li{
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-end;
+        padding: 0;
+
+
+    }
+    header .title-first {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+
+    }
+    header .title-first h1 {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+    header .nav-container .nav-ul-li li {
+        display: flex;
+        justify-content: center;
+        font-size: 0.8rem;
+    }
+    main {
+        padding: 0;
+    }
+    main .container-main-section-fisher .container-main-div-fisher {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 ;
+        width: 100%;
+    }
+
+
+}

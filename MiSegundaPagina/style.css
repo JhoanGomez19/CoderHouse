@@ -521,22 +521,34 @@ footer {
 
 @media (max-width: 557px) {
   main .image-flex-p img {
-    width: 350px;
-    height: 270px;  
+    width: 300px;
+    height: 250px;  
   } 
   main .image-google-p img {
-    width: 370px;
-    height: 300px;  
+    width: 300px;
+    height: 250px;  
   } 
   main .image-code-p img {
-    width: 400px;
-    height: 300px;  
+    width: 300px;
+    height: 250px;  
   } 
 
   footer .img-logo {
     display: none;
     
   }
+
+  main .image-flex-p .container-text-flex .first-text-flex {
+    font-size: 1.3rem;
+  }
+  main .image-code-p .container-text-code .first-text-code {
+    font-size: 1.3rem;
+  }
+  main .image-google-p .container-text-google .first-text-google {
+    font-size: 1.3rem;
+  }
+  
+
 
 
   footer .container-img-icon-p {
@@ -556,6 +568,8 @@ footer {
   }
 
   footer .img-team {
+    width: 280px;
+    height: 200px;
     grid-area: img-team;
     display: flex;
     justify-self: center;
